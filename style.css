@@ -3,8 +3,37 @@
   margin: 0;
 }
 
+body{
+  color: #333333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
 main {
   box-sizing: border-box;
   margin: 88px auto 65px ;
   width: 1120px;
+}
+
+h1{
+  font-size: 36px;
+}
+
+h2{
+  font-size: 32px;
+}
+
+h3{
+  font-size: 28px;
+}
+
+img {
+  border-radius: 28px;
+}
+
+
+#about p:first-child, #destination p:first-child {
+  color: #E1624F;
+  text-transform: uppercase;
+  font-weight: bold;
 }
