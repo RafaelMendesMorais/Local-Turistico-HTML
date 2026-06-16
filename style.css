@@ -17,10 +17,12 @@ main {
 
 h1{
   font-size: 36px;
+  margin-bottom: 40px;
 }
 
 h2{
   font-size: 32px;
+  margin-bottom: 8px;
 }
 
 h3{
@@ -31,9 +33,37 @@ img {
   border-radius: 28px;
 }
 
+img + p {
+  font-style: italic;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+#destination {
+  margin-top: 64px;
+}
+
+#destination img {
+  margin-bottom: 20px;
+}
+
+
+#destination section + section {
+  margin-top: 48px;
+}
+
+#temple-Haedong {
+  margin-top: 64px;
+}
+
 
 #about p:first-child, #destination p:first-child {
   color: #E1624F;
   text-transform: uppercase;
   font-weight: bold;
 }
+
+
+
+
