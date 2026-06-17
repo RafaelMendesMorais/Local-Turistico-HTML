@@ -16,24 +16,30 @@ main {
 }
 
 h1{
+  color: #1B1B1B;
   font-size: 36px;
   margin-bottom: 40px;
 }
 
 h2{
+  color:#1B1B1B;
+  font-weight: bold;
   font-size: 32px;
   margin-bottom: 8px;
 }
 
 h3{
+  color: #1B1B1B;
   font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 4px;
 }
 
 img {
   border-radius: 28px;
 }
 
-img + p {
+#about img + p {
   font-style: italic;
   text-align: center;
   margin-top: 24px;
@@ -44,7 +50,7 @@ img + p {
   margin-top: 64px;
 }
 
-#destination img {
+#destination section img {
   margin-bottom: 20px;
 }
 
@@ -57,6 +63,23 @@ img + p {
   margin-top: 64px;
 }
 
+#temple-Haedong ul li, #templebeomeo ul li {
+  color: #0C51A7;
+  
+
+}
+
+li::marker {
+  color: black;
+  
+}
+
+li {
+  margin-left: 24px; 
+  font-weight: bold;
+}
+
+
 
 #about p:first-child, #destination p:first-child {
   color: #E1624F;
@@ -64,6 +87,33 @@ img + p {
   font-weight: bold;
 }
 
+.casais {
+    color: #591B98;
+}
 
+.familia{
+  color: #E5245E;
+}
 
+.orcamento {
+  color: #E95E10;
+}
+
+.line{
+  margin: 40px 0;
+}
+
+#destination p:last-child {
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+  line-height: 150%;
+  margin-bottom: 48px ;
+}
+
+footer img {
+  vertical-align: middle;
+}
 
